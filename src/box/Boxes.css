@@ -1,0 +1,26 @@
+.onhover:hover
+{
+ text-decoration: underline !important;
+}
+
+
+@media only screen and (max-width: 424px) {
+    .box_mov
+    {
+        margin-left:10%;
+    }
+    .card2 
+    {
+        margin-top:10% !important
+    }
+    .button1
+    {
+        margin-right: 14% !important; 
+    }
+    .button2{
+        padding: 6px 6px !important;
+        margin-top: 3% !important;
+        margin-left:35% !important;
+        
+    }
+}
