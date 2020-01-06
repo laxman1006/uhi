@@ -8,7 +8,7 @@ export function RouterPath (){
     return(
             <Switch>
                 <Route exact path="/" component={Apps}/>
-                <Route exact path='/uhilink' component={on_click}></Route>
+                <Route exact path='/ADHD' component={on_click}></Route>
             </Switch>
     )
 }
