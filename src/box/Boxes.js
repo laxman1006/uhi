@@ -95,7 +95,7 @@ export default function Boxes() {
                 <Grid item lg={10} md={6} sm={12} xs={12}>
                     <a>
                         <Button variant="contained" className="button1"  style={{float:"right",backgroundColor:"#4b830d",color:"white", width:"220px",fontWeight:"bold",textTransform:"none",fontSize:"18px"}}>
-                        <NavLink to="/uhilink" style={{color:"white",textDecoration:"none"}}>More Outbreaks</NavLink> 
+                        <NavLink to="/ADHD" style={{color:"white",textDecoration:"none"}}>More Outbreaks</NavLink> 
 </Button>
 </a>
 
@@ -128,7 +128,7 @@ export default function Boxes() {
                     <Grid container lg={12} spacing={12} >
                      
                      <Button variant="contained" className="button2"  style={{ marginTop:"84px",marginLeft:"65%",backgroundColor:"#007c91",color:"white",fontWeight:"bold",textTransform:"none",fontSize:"18px"}}>
-                     <NavLink to="/uhilink" style={{color:"white",textDecoration:"none"}}>More News</NavLink>       
+                     <NavLink to="/ADHD" style={{color:"white",textDecoration:"none"}}>More News</NavLink>       
                            
 </Button>
 
