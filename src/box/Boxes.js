@@ -72,9 +72,10 @@ export default function Boxes() {
     return (
         
             <Grid container lg={12} spacing={12} style={{ marginTop: "6%" }}>
-
+            
 
                 <Grid item lg={6} md={6} sm={12} xs={12} className="box_mov">
+            
                     <div className={classes.card} style={{ borderTop: "1px lightgrey", borderTop: "1px solid lightgrey", paddingTop: "2%", paddingBottom: "1%" }}><span style={{ fontSize: "26px", marginLeft: "4%" }}>Outbreak</span></div>
                     {box1.map(key => (
                         <Card className={classes.card}>
@@ -84,21 +85,26 @@ export default function Boxes() {
                                         <img src={key.image}></img>
                                     </Grid>
                                     <Grid item lg={10}sm={12} xs={12}  style={{ fontSize: "20px", marginTop: "2%", color: "#075290" }}>
-                                    <div onClick={()=>window.location.reload()} className="onhover">{key.head}</div>
+                                    <div  className="box1font"onClick={()=>window.location.reload()} className="onhover">{key.head}</div>
                                     </Grid>
                                 </Grid>
                             </CardContent>
                         </Card>))}
                         <Grid container lg={12} spacing={12} >
                 <Grid item lg={10} md={6} sm={12} xs={12}>
-                        <Button variant="contained" className="button1" style={{float:"right",backgroundColor:"#4b830d",color:"white", width:"220px",fontWeight:"bold",textTransform:"none",fontSize:"18px"}}>
+                    <a>
+                        <Button variant="contained" className="button1"   href={("https://vibrant-einstein-48f2e3.netlify.com/")} style={{float:"right",backgroundColor:"#4b830d",color:"white", width:"220px",fontWeight:"bold",textTransform:"none",fontSize:"18px"}}>
                             More Outbreaks
 </Button>
+</a>
 
 </Grid>
                     </Grid>
+                
                 </Grid>
+               
                 <Grid item lg={6} md={6} sm={12} xs={12}>
+                
                     <div className={ `card2 ${classes.card}`} style={{ borderTop: "1px lightgrey", borderTop: "1px solid lightgrey", paddingTop: "2%", paddingBottom: "1%", MozBorderRadiusTopright: "8%" }}> <span style={{ fontSize: "26px", marginLeft: "4%", }}>News</span></div>
 
 
@@ -113,27 +119,22 @@ export default function Boxes() {
                                         </div>
                                     </Grid>
                                     <Grid item lg={11}md={11} sm={9} xs={9} style={{ fontSize: "20px", height: "", color: "#075290",cursor:"pointer" }} >
-                                      <div onClick={()=>window.location.reload()} className="onhover">{key1.head}</div>
+                                      <div className="box1font" onClick={()=>window.location.reload()} className="onhover">{key1.head}</div>
                                     </Grid>
                                 </Grid>
                             </CardContent>
                         </Card>))}
                     <Grid container lg={12} spacing={12} >
-                        <Button variant="contained" className="button2" style={{ marginTop:"84px",marginLeft:"65%",backgroundColor:"#007c91",color:"white",fontWeight:"bold",textTransform:"none",fontSize:"18px"}}>
+                     
+                     <Button variant="contained" className="button2"  href={("https://vibrant-einstein-48f2e3.netlify.com/")}  style={{ marginTop:"84px",marginLeft:"65%",backgroundColor:"#007c91",color:"white",fontWeight:"bold",textTransform:"none",fontSize:"18px"}}>
                             More News
                            
 </Button>
 
                     </Grid>
-
+            
                 </Grid>
-
-
-
-
-
-
-
+                
             </Grid>
         
 

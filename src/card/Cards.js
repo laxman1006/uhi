@@ -47,13 +47,13 @@ export default function Cards() {
     }
   ]
   return (
-     <Container-fluid>
-    <Grid container lg={12} spacing={10} className="cardfu"  style={{marginTop: "3%",
-    marginLeft: "5%"}}>
+     
+    <Grid container lg={12} spacing={12} className="cardfu"  style={{marginTop: "3%",
+    marginLeft:"6%"}}>
        
         {cardo_.map(val => (
           <>
-<Grid item lg={4} md={4} sm={10} xs={10} className="cardfun">
+<Grid item lg={4} md={4} sm={12} xs={12} className="cardfun">
     <Card className={ classes.card}>
       <CardActionArea >
             <CardMedia
@@ -66,7 +66,7 @@ export default function Cards() {
             
             <CardContent>
               <Typography gutterBottom variant="h5" component="h2">
-                {val.head}
+                <div className="cardfont">{val.head}</div>
               </Typography>
               <Typography variant="body2" color="textSecondary" component="p" style={{fontSize:"17px"}}>
                 {val.sub_title.para}
@@ -79,6 +79,6 @@ export default function Cards() {
         ))}
      
     </Grid>
-    </Container-fluid>
+    
   );
 }

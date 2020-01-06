@@ -75,58 +75,62 @@ const boxes2 =[
     option:"Diversity" 
  },
 
-
-
 ]
-
-
-
     return (
-        
-        <Grid container lg={12} md={12} sm={12} xs={12}spacing={0} style={{ marginTop: "4%", justifyContent: "center" }}>
-            <div style={{ textAlign: "center", fontSize: "38px" }}>CDC in Action</div>
-        <Grid container lg={12}md={12} sm={12} xs={12} spacing={12} style={{ marginTop: "3%",marginLeft:"8%" }}>
-       
-            <Grid item lg={5} md={5} sm={10} xs={10}>
+      
+        <Grid container lg={12} md={12} sm={12} xs={12}spacing={0}  className="mainbox"style={{ marginTop: "4%", justifyContent: "center !important",background:"hsl(0, 0%, 95%)" }}>
+            <div  className="cdctopic" style={{ textAlign: "center", fontSize: "38px",marginLeft:"43%",paddingTop:"2%" }}>CDC in Action</div>
+           
+    
+        <Grid container lg={12}md={12} sm={12} xs={12} spacing={12} style={{ marginTop: "3%",marginLeft:"" }}>
+        <Grid item lg={1} md={1} sm={10} xs={10} style={{}}>
+                                   
+                                   </Grid>
+            <Grid item lg={5} md={5} sm={12} xs={12} className="cdcwhole"style={{}}>
                 {boxes1.map(key => (
-                    <Card className={classes.card}>
+                    <Card className={classes.card} style={{borderRadius: "0px !important",boxShadow:"none"}}>
                         < CardContent>
-                            <Grid container lg={12} md={12} sm={12} xs={12} spacing={12}>
-                                <Grid item lg={5} md={5} sm={10} xs={10} style={{}}>
-                                    <img src={key.image} style={{ width: "210px", height: "100px" }}></img>
+                            <Grid container lg={12} md={12} sm={12} xs={12} spacing={12} style={{borderRadius: "0px !important",boxShadow:"none",padding:"4%"}} >
+                            
+                                <Grid item lg={5} md={5} sm={10} xs={10} style={{borderRadius: "0px !important",boxShadow:"none"}}>
+                                    <img src={key.image} className="cdcimage" style={{ width: "210px", height: "100px" }}></img>
                                 </Grid>
-                                <Grid item lg={7} md={7} sm={10} xs={10} style={{ fontSize: "20px", marginTop: "2%", color: "black" }}>
-                                    <div>{key.head}</div>
-                                    <div style={{ marginTop: "2%" }}>{key.para}</div>
+                                <Grid item lg={6} md={6} sm={10} xs={10} style={{ fontSize: "20px", marginTop: "2%", color: "black",borderRadius: "0px !important",boxShadow:"none"}}>
+                                    <div className="cdcname">{key.head}</div>
+                                    <div className="cdcname" style={{ marginTop: "2%" }}>{key.para}</div>
                                 </Grid>
                             </Grid>
+                            <Grid item lg={1} md={1} sm={10} xs={10} style={{background:"hsl(0, 0%, 95%)"}}>
+                                   
+                                   </Grid>
                         </CardContent>
                     </Card>))}
             </Grid>
-            <Grid item lg={6} md={6} sm={12} xs={10} style={{paddingLeft:"4%"}}>
-               
+            <Grid item lg={5} md={5} sm={10} xs={10}  style={{background:"white"}}>
                 <div>
-                <img src="https://www.cdc.gov/homepage/images/cdc-in-action/about-cdc.jpg" style={{ width: "100%", height: "100%" }}></img>
+                <img  className="rightimg"src="https://www.cdc.gov/homepage/images/cdc-in-action/about-cdc.jpg" style={{ width: "100%", height: "100%" }}></img>
                 </div>
                 {boxes2.map(Keys =>(
-                    <Card className={classes.card}>
-                     <CardContent style={{padding:"18px"}}>
+                    <Card className={classes.card} style={{borderRadius: "0px !important",boxShadow:"none"}}>
+                     <CardContent style={{borderRadius: "0px !important",boxShadow:"none"}}>
                          <Grid container lg={12} spacing={2}>
-                             <Grid item lg={6} style={{}}>
-                            <div style={{fontSize:"21px",color:"#075290",textDecoration:"underline"}}>{Keys.head}</div>
+                       
+                             <Grid item lg={6} md={6} sm={12}  xs={12}  style={{}}>
+                            <div  className="jsonfile"  style={{fontSize:"21px",color:"#075290",textDecoration:"underline"}}>{Keys.head}</div>
                              </Grid>
-                             <Grid item lg={6} style={{}}>
-                             <div style={{fontSize:"21px",color:"#075290",textDecoration:"underline"}}>{Keys.option}</div>
+                             <Grid item lg={6} md={6} sm={12}  xs={12} style={{}}>
+                             <div  className="jsonfile" style={{fontSize:"21px",color:"#075290",textDecoration:"underline"}}>{Keys.option}</div>
                              </Grid>
                          </Grid>
                      </CardContent>
                     </Card> 
                 ))}
-            
             </Grid>
+            <Grid item lg={1} md={1} sm={10} xs={10} style={{}}>
+                                   
+                                </Grid>
         </Grid>
-       
+        
         </Grid>
-    
     );
 }

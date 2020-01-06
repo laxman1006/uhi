@@ -1,0 +1,40 @@
+@media only screen and (max-width: 424px) {
+
+.cdctopic
+{
+    font-size:28px !important;
+    margin-left:25% !important;
+}
+.cdcimage
+{
+    height:100% !important;
+    width:100% !important;
+}
+.cdcwhole
+{
+    margin-left:10% !important;
+    text-align: center;
+    font-size:16px !important;
+}
+.mainbox
+{
+    background:none !important;
+}
+.cdcright
+{
+    margin-top:4%;
+}
+.cdcname
+{
+    font-size: 18px !important;
+}
+.rightimg
+{
+    padding-left: 11% !important;
+}
+.jsonfile
+{
+    margin-left:25% !important;
+    font-size: 18px !important;
+}
+}

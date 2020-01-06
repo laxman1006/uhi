@@ -1,13 +1,32 @@
 @media only screen and (max-width: 424px) {
     .cardfun{
-         padding-left:9% !important;
+         padding:5% !important;
          padding-top:0px !important;
          margin-top: 5% !important;
+         font-size:18px !important;
     }
     .cardfu
     {
         margin-left:0px !important;
+        font-size:18px !important;
+    }
+    .cardfont
+    {
+        font-size:18px !important;  
     }
 
 
+}
+
+
+@media only screen and (max-width: 603px) {
+
+
+    .cardfun{
+        padding:1
+        % !important;
+        padding-top:0px !important;
+        margin-top: 5% !important;
+        font-size:18px !important;
+   }
 }

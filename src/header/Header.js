@@ -77,10 +77,10 @@ export default function Header() {
    
     <div>
       <Grid container lg={12} md={12} spacing={12}>
-        <Grid item lg={10} xs={12}  md={9} xl={10} >
+        <Grid item lg={10} xs={12}  md={9} xl={10} style={{backgroundColor:"hsl(0, 0%, 95%)"}} >
         
             </Grid>
-            <Grid item lg={2}  sm={12} xs={12} md={12} xl={12}  >
+            <Grid item lg={2}  sm={12} xs={12} md={12} xl={12}  style={{backgroundColor:"hsl(0, 0%, 95%)"}} >
             <Typography className={ `espanol ${classes.root}`} >
           <Link href="#" onClick={preventDefault} >
             Espanol
@@ -129,14 +129,11 @@ export default function Header() {
 <Nav/>
     </Grid>
    
-    <Grid container lg={12}  md={12} xl={12} sm={12} xs={12}spacing={12} ClassName="image_tune" style={{}}>
+    <Grid container lg={12}  md={12} xl={12} sm={12} xs={12}spacing={12} ClassName="image_tune" style={{backgroundColor:"hsl(0, 0%, 95%)"}}>
     
       <img src="lungs injury.jpg" className="image_tune"style={{marginLeft:"7%"}}></img> 
         
-      </Grid> 
-
-       
-
+      </Grid>
          <Cards/>
          <Boxes/>
          <Cdc/>

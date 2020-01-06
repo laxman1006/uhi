@@ -89,12 +89,13 @@
     
     height:fit-content !important;
      max-width:"inherit" !important;
-     margin-left:1% !important;
+     margin-left: 0px !important;
+    
 }
 .image_tune
 {
     max-width:inherit !important;
-    margin-left:1% !important;
+
     height:inherit !important;
     margin-top:3%;
    
@@ -104,6 +105,55 @@
     max-width:inherit !important;
     
 }
+}
+@media only screen and (max-width: 603px) {
+    .espanol {
+        float:right !important;
+    
+
+       }
+
+       .a-zindex
+{
+   margin-right:3% !important;
+   
+}
+    .headlogo
+    { 
+        
+        width: 98%;
+        height:98%;
+        padding-left:1%;
+        padding-top:5% !important;
+}
+.searchbox{
+    
+    width:93% !important;
+   
+    margin-right: 4% !important;
+}
+.image_tune
+{
+    
+    height:fit-content !important;
+     max-width:"inherit" !important;
+     margin-left: 0px !important;
+    
+}
+.imgconnnnnn{
+    max-width:inherit !important;
+    
+}
+.image_tune
+{
+    max-width:inherit !important;
+
+    height:inherit !important;
+    margin-top:3%;
+   
+  
+}
+
 }
 
 
