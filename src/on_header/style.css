@@ -1,0 +1,43 @@
+.headTag {
+  background-color: #733477;
+  border-bottom: 3px solid #b890bb;
+}
+.headText {
+  font-size: 25px !important;
+  color: #fff;
+  text-decoration: none;
+}
+.headText:hover,
+.adhdHome:hover {
+  text-decoration: underline;
+}
+.adhdHome {
+  font-size: 15px;
+  color: #176bba;
+  text-decoration: none;
+}
+.iconGrid{
+    width: 100%;
+}
+/* #menu  {
+    width: 100%;
+    overflow: auto;
+} */
+#menu a {
+  padding: 0px 20px;
+}
+@media screen and (max-width : 768px) {
+    .mobileView{
+        display: none !important;
+    }
+    .desktopView{
+      display: none !important;
+  }
+}
+
+@media screen and (min-width : 1024px){
+    .desktopView{
+        display: none !important;
+    }
+}
+

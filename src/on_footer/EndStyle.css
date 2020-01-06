@@ -1,0 +1,8 @@
+.endLink{
+    text-decoration: none !important;
+    color: #000;
+    font-size: 13px;
+}
+.endLink:hover{
+    text-decoration: underline !important;
+}

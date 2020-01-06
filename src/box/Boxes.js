@@ -10,6 +10,7 @@ import Typography from "@material-ui/core/Typography";
 import Grid from '@material-ui/core/Grid';
 import Container from '@material-ui/core/Container';
 import"./Boxes.css"; 
+import { NavLink } from 'react-router-dom'
 const useStyles = makeStyles({
     card: {
         boxShadow: "none",
@@ -93,8 +94,8 @@ export default function Boxes() {
                         <Grid container lg={12} spacing={12} >
                 <Grid item lg={10} md={6} sm={12} xs={12}>
                     <a>
-                        <Button variant="contained" className="button1"   href={("https://vibrant-einstein-48f2e3.netlify.com/")} style={{float:"right",backgroundColor:"#4b830d",color:"white", width:"220px",fontWeight:"bold",textTransform:"none",fontSize:"18px"}}>
-                            More Outbreaks
+                        <Button variant="contained" className="button1"  style={{float:"right",backgroundColor:"#4b830d",color:"white", width:"220px",fontWeight:"bold",textTransform:"none",fontSize:"18px"}}>
+                        <NavLink to="/uhilink" style={{color:"white",textDecoration:"none"}}>More Outbreaks</NavLink> 
 </Button>
 </a>
 
@@ -126,8 +127,8 @@ export default function Boxes() {
                         </Card>))}
                     <Grid container lg={12} spacing={12} >
                      
-                     <Button variant="contained" className="button2"  href={("https://vibrant-einstein-48f2e3.netlify.com/")}  style={{ marginTop:"84px",marginLeft:"65%",backgroundColor:"#007c91",color:"white",fontWeight:"bold",textTransform:"none",fontSize:"18px"}}>
-                            More News
+                     <Button variant="contained" className="button2"  style={{ marginTop:"84px",marginLeft:"65%",backgroundColor:"#007c91",color:"white",fontWeight:"bold",textTransform:"none",fontSize:"18px"}}>
+                     <NavLink to="/uhilink" style={{color:"white",textDecoration:"none"}}>More News</NavLink>       
                            
 </Button>
 

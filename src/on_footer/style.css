@@ -1,0 +1,12 @@
+*{
+  font-family: sans-serif ;
+}
+.linkStyle{
+    color: #fff !important;
+    text-decoration: none;
+    font-size: 14px ;
+    padding: 3px 0px;
+}
+.linkStyle:hover{
+    text-decoration: underline !important;
+}

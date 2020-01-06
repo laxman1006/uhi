@@ -1,0 +1,38 @@
+
+body{
+  font-family: 'Merriweather', serif !important;
+}
+.MuiDrawer-paper {
+  position: unset !important;
+}
+.makeStyles-content-146{
+  background-color: #fff !important;
+}
+.buttonStyle {
+  padding: 18px 0px !important;
+  width: 100%;
+  border-radius: 0px !important;
+  text-align: unset !important;
+  font-size: 18px !important;
+  text-transform: unset !important;
+  line-height: unset !important;
+  justify-content: unset !important;
+}
+.MuiButton-label {
+  padding-left: 15px !important;
+}
+.buttonStyle:hover,
+.buttonStyle:active {
+  border-left: 4px solid #733477;
+  color: #733477;
+}
+.hr {
+  margin: 0px !important;
+  border: 0.8px dashed #eaeaea;
+}
+@media screen and (max-width : 768px) {
+  #sideBar{
+    display : none !important;
+
+  }
+}
