@@ -167,7 +167,7 @@ export default function Nav() {
                     {button_.map(val => (
                         <Grid item lg={2} md={2} sm={12} xs={12} className="buttonsize">
                             <Button
-                                style={{ width: "100%", height: "62px", boxShadow: "none", marginLeft: "10px", textTransform: "none", marginLeft: "50%", border: "none", fontSize: "16px", backgroundColor: "#005eaa" }}
+                                style={{ width: "100%", height: "62px", boxShadow: "none", marginLeft: "10px", textTransform: "none", border: "none", fontSize: "16px", backgroundColor: "#005eaa" }}
                                 aria-controls="customized-menu"
                                 aria-haspopup="true"
                                 variant="contained"
@@ -195,7 +195,7 @@ export default function Nav() {
                     {button_1.map(val => (
                         <Grid item lg={2} md={2} sm={12} xs={12} className="buttonsize">
                             <Button
-                                style={{ width: "100%", height: "62px", boxShadow: "none", marginLeft: "10px", textTransform: "none", marginLeft: "50%", border: "none", fontSize: "16px", backgroundColor: "#005eaa" }}
+                                style={{ width: "100%", height: "62px", boxShadow: "none", marginLeft: "10px", textTransform: "none", border: "none", fontSize: "16px", backgroundColor: "#005eaa" }}
                                 aria-controls="customized-menu"
                                 aria-haspopup="true"
                                 variant="contained"
@@ -223,7 +223,7 @@ export default function Nav() {
                     {button_2.map(val => (
                         <Grid item lg={2} md={2} sm={12} xs={12} className="buttonsize">
                             <Button
-                                style={{ width: "100%", height: "62px", boxShadow: "none", marginLeft: "10px", textTransform: "none", marginLeft: "50%", border: "none", fontSize: "16px", backgroundColor: "#005eaa" }}
+                                style={{ width: "100%", height: "62px", boxShadow: "none", marginLeft: "10px", textTransform: "none",border: "none", fontSize: "16px", backgroundColor: "#005eaa" }}
                                 aria-controls="customized-menu"
                                 aria-haspopup="true"
                                 variant="contained"
@@ -250,7 +250,7 @@ export default function Nav() {
                     {button_3.map(val => (
                         <Grid item lg={2} md={2} sm={12} xs={12} className="buttonsize">
                             <Button
-                                style={{ width: "100%", height: "62px", boxShadow: "none", marginLeft: "10px", textTransform: "none", marginLeft: "50%", border: "none", fontSize: "16px", backgroundColor: "#005eaa" }}
+                                style={{ width: "100%", height: "62px", boxShadow: "none", marginLeft: "10px", textTransform: "none",border: "none", fontSize: "16px", backgroundColor: "#005eaa" }}
                                 aria-controls="customized-menu"
                                 aria-haspopup="true"
                                 variant="contained"
@@ -277,7 +277,7 @@ export default function Nav() {
                     {button_4.map(val => (
                         <Grid item lg={2} md={2} sm={12} xs={12} className="buttonsize">
                             <Button
-                                style={{ width: "100%", height: "62px", boxShadow: "none", marginLeft: "10px", textTransform: "none", marginLeft: "50%", border: "none", fontSize: "16px", backgroundColor: "#005eaa" }}
+                                style={{ width: "100%", height: "62px", boxShadow: "none", marginLeft: "10px", textTransform: "none", border: "none", fontSize: "16px", backgroundColor: "#005eaa" }}
                                 aria-controls="customized-menu"
                                 aria-haspopup="true"
                                 variant="contained"
