@@ -3,7 +3,6 @@ import Header from '../on_header/header';
 import Sidebar from '../on_sidebar/sidebar';
 import Footer from '../on_footer/footer';
 import End from '../on_footer/End.js';
-import { withRouter } from 'react-router-dom';
 import React from 'react'
 
 function on_click() {
